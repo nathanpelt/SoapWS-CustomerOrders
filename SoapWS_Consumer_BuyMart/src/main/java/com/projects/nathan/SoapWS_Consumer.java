@@ -31,6 +31,7 @@ public class SoapWS_Consumer {
 			
 				for(Product product: products) {
 					System.out.println(product.getQuantity());
+					System.out.println(product.getDescription());
 				}
 			}
 		} catch (MalformedURLException e) {
