@@ -33,6 +33,7 @@ public class SoapWS_Consumer {
 					System.out.println(product.getQuantity());
 					System.out.println(product.getDescription());
 					System.out.println(product.getName());
+					System.out.println(product.getPrice());
 				}
 			}
 		} catch (MalformedURLException e) {
